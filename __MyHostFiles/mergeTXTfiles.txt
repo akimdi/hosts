@@ -1,0 +1,3 @@
+for %f in (*.txt) do type "%f" >> "output.txt"
+
+for %f in (*) do type "%f" >> "output.txt"
